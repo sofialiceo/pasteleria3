@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*Maquetacion*/
+html{
+	background-image: url(imagenes/descarga.png);
+}
+
+body{
+	width: 1000px;
+	height: 1000px;
+	background-color:;
+	margin: auto;
+}
+header{
+	width: 1000px;
+	height: 200px;
+}
+nav{
+	width: 1000px;
+	height: 50px;
+    background-color:;
+}
+article{
+	width: 800px;
+	height: 700px;
+	background-color:;
+	float: left;
+}
+aside{
+	width: 200px;
+	height: 700px;
+	background-color: sandybrown;
+	float: left;
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background-color: black;
+	float: left;
+}
+/*Menu de navegacion*/
+nav a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 25px;
+	font-family: Franklin Gothic Medium;
+}
+
+nav li{
+	display: inline-block;
+	padding: 9px 9px;
+	box-shadow: 0 0 10px #623307;
+	background-color: #ee82ee;
+	color: #000;
+}
+
+nav li:hover{
+	background-color: #b0e0e6;
+	box-shadow: 0 0 10px #00bfff;
+	transition: 0.9s;
+	color: #ff00ff;
+}
+
+nav ul{
+	text-align: left;
+}
+
+
+/*menu de redes sociales*/
+.social ul{
+	list-style: name;
+	text-align: center;
+}
+
+.social li{
+	display: inline-block;
+
+}
+
+.social ul li img{
+	width: 25px;
+}
+
+.social ul li a{
+	display: inline-block;
+	padding: 5px 4px;
+	transition: all 0.3s;
+}
+
+.social ul li .iconogoogle{
+	background:#a52a2a;
+	
+}
+
+ .social ul li .iconoinstagram{
+	background:#a52a2a;
+}
+
+.social ul li .iconofacebook{
+	background:#a52a2a;
+}
+
+.social ul li .iconowhatsApp{
+	background:#a52a2a;
+}
+.social ul li .iconotwitter{
+	background:#a52a2a;
+}
+.social ul li a:hover{
+	background: pink;
+	padding: 5px 8px;
+	box-shadow: 0 0 25px #9400d3;
+}
+
